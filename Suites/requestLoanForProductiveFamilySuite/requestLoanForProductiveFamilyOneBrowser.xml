@@ -1,0 +1,33 @@
+<suite name="requestLoadForProductiveFamilySuite" parallel="tests" thread-count="2">
+    <parameter name="squad" value="squad1"/>
+    <parameter name="suiteCollectionName" value="requestLoanForProductiveFamily"/>
+
+
+    <test name="createLoanRequestForChrome" >
+        <parameter name="browser" value="chrome"/>
+        <parameter name="timeout" value="30"/>
+        <classes>
+
+            <class name="com.sage.tests.Systems.ProductiveFamiliesPortal.CreateLoanRequestTest">
+            </class>
+
+
+
+
+        </classes>
+
+
+</test>
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>

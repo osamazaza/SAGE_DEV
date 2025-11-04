@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-11-04 08:10:32.356 UTC</timestamp>
+  <md5sum>409222badff93ac0d896d25ee2946378</md5sum>
+  <fileName>Credential id=GIT_Credentials name=osamazaza/******</fileName>
+  <usages>
+    <entry>
+      <string>Build_test_push_to_dockerHub_Pipeline</string>
+      <ranges>241-246</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

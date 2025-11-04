@@ -1,0 +1,38 @@
+90104
+First senario based on the request number
+
+Process:
+1- login as user has [ضابط الاقراض ومشرف]
+2- navigate to the URL ---> https://tstcrmsit.sdb.gov.sa/SITSDBCRM/apps
+3- Click on the نظام إدارة وسطاء التمويل button
+4- select the option Loan management from selector view at the corenr of the page
+5- click on Loan request
+6- select dashboard طلبات القروض
+7- search on the request based on the input data (request number)
+8- click on request
+9- click on assign button
+10- validate request status is  (بانتظار ظابط الاقراض) after it's send from producti family
+11- click on accept button down of the page
+11- refresh the page
+12-validate status is "بانتظار موافقة مشرف الاقراض"
+13- click on approve button
+14- refreth the page
+15- validate the req status is "مكتمل" inside req and outside (dashboard)
+
+
+
+Steps required after any decision made:
+select dashboard again طلبات القروض
+serach on the ticker number
+click on the ticket
+
+---------------------------------------------------------
+Second senario based on the request status available "بانتظار ظابط الاقراض"
+----------------------------------------------------------------------
+Pages:
+
+Apps Page
+نظام ادارة وسطاء التمويل page
+Loan Request Management Dashboard Page
+Loan Request Ticket Page
+

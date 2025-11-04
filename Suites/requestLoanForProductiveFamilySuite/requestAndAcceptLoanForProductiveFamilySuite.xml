@@ -1,0 +1,25 @@
+<suite name="requestAndAcceptLoanForProductiveFamilySuite" preserve-order="true" parallel="false">
+    <parameter name="squad" value="squad1"/>
+    <parameter name="suiteCollectionName" value="requestAndAcceptLoanForProductiveFamilySuite"/>
+
+
+    <test name="createAcceptLoanRequestChrome" >
+        <parameter name="browser" value="chrome"/>
+        <parameter name="timeout" value="30"/>
+        <classes>
+
+            <class name="com.sage.tests.Systems.ProductiveFamiliesPortal.CreateAndAcceptLoanRequestTest">
+            </class>
+
+
+
+
+        </classes>
+
+
+    </test>
+
+
+
+
+</suite>

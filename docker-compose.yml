@@ -1,0 +1,104 @@
+services:
+  HubService:
+    image: selenium/hub:latest
+    ports:
+      - ":4444" # Grid UI and API
+      - ":4442" # Event Bus Publish Port
+      - ":4443" # Event Bus Subscribe Port
+    networks:
+      - selenium-grid-network
+  ChromeService:
+    image: selenium/node-chrome:latest
+    shm_size: "2gb"
+    ports:
+      - "5900"
+      - "7900"
+    environment:
+      - SE_EVENT_BUS_HOST=HubService
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=1
+    depends_on:
+      - HubService
+    networks:
+      - selenium-grid-network
+
+
+
+  chrome_video:
+    image: selenium/video:latest
+    volumes:
+      - ./TestsRecordings:/videos
+    depends_on:
+      - ChromeService
+    environment:
+      - DISPLAY_CONTAINER_NAME=ChromeService
+      - SE_VIDEO_FILE_NAME=auto
+      - SE_NODE_GRID_URL=http://HubService:4444
+    networks:
+      - selenium-grid-network
+
+
+
+  FirefoxService:
+    image: selenium/node-firefox:latest
+    shm_size: "2gb"
+    ports:
+      - "5900"
+      - "7900"
+    environment:
+      - SE_EVENT_BUS_HOST=HubService
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=1
+    depends_on:
+      - HubService
+    networks:
+      - selenium-grid-network
+
+
+
+  EdgeService:
+    image: selenium/node-edge:latest
+    shm_size: "2gb"
+    ports:
+      - "5900"
+      - "7900"
+    environment:
+      - SE_EVENT_BUS_HOST=HubService
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=1
+    depends_on:
+      - HubService
+    networks:
+      - selenium-grid-network
+
+
+
+  selenium-test-runner:
+    build:
+     context : .
+     dockerfile: DockerFile
+    environment:
+      - SELENIUM_REMOTE_URL=http://HubService:4444
+      - DOCKER=/app/Reports/Screenshots
+    depends_on:
+      - HubService
+      - ChromeService
+      - FirefoxService
+      - EdgeService
+      - chrome_video
+    volumes:
+      - .:/app
+     #- ./Reports/CustomReport:/app/Reports/CustomReport
+     #- ${WORKSPACE}/Reports/CustomReport:/app/Reports/CustomReport
+     #- ./Reports/Screenshots:/app/Reports/Screenshots
+    networks:
+      - selenium-grid-network
+
+
+
+networks:
+  selenium-grid-network:
+    driver: bridge

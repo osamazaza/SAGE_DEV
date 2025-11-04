@@ -1,0 +1,10 @@
+Oct 12, 2025 9:42:05 AM hudson.remoting.Launcher createEngine
+INFO: Setting up agent: dockerNode
+Oct 12, 2025 9:42:05 AM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3309.v27b_9314fd1a_4
+Oct 12, 2025 9:42:05 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using C:\Users\user\Desktop\MyDataUntil2025\Tutorials\Cources\Docker\Projects\sdbProjectLive\Jenkins\remoting as a remoting work directory
+Oct 12, 2025 9:42:05 AM hudson.remoting.Launcher$CuiListener status
+INFO: WebSocket connection open
+Oct 12, 2025 9:42:06 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connected

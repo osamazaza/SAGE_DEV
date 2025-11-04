@@ -1,0 +1,87 @@
+pipeline {
+    agent { label 'dockerNode' }
+
+
+
+    stages {
+  
+
+
+
+        stage('Build Image and Run Tests') {
+            steps {
+                echo "➡️ Starting Stage: Build Image and Run Tests"
+                echo "✅ WORKSPACE: ${env.WORKSPACE}"
+                script {
+                    def workspacePath = env.WORKSPACE
+                    // Pass WORKSPACE into docker-compose
+                    withEnv(["WORKSPACE=${workspacePath}"]) {
+                        bat "docker compose up --build --abort-on-container-exit --exit-code-from selenium-test-runner"
+                    }
+                }
+                echo "✅ Completed Stage: Build Image and Run Tests"
+            }
+        }
+
+
+
+        stage('Push Image') {
+            steps {
+                echo "➡️ Starting Stage: Push Image"
+                withCredentials([usernamePassword(credentialsId: 'dockerHubCredentials', passwordVariable: 'pass', usernameVariable: 'user')]) {
+                    bat "docker login --username=${user} --password=${pass}"
+                    bat "docker push osamazaza/sage:latest"
+                }
+                echo "✅ Completed Stage: Push Image"
+            }
+        }
+    }
+
+
+
+    post {
+        always {
+            echo "🧹 Cleaning up containers"
+            bat 'docker compose down || echo "Nothing to clean"'
+
+
+
+            echo "📊 Publishing latest HTML report from host"
+            script {
+                try {
+                    // Find all HTML files in the report directory
+                    def reportFiles = findFiles(glob: 'Reports/CustomReport/*.html')
+                    if (reportFiles) {
+                        // Manually find the newest file
+                        def newestFile = null
+                        def latestTime = 0
+                        reportFiles.each { file ->
+                            if (file.lastModified > latestTime) {
+                                latestTime = file.lastModified
+                                newestFile = file
+                            }
+                        }
+
+
+
+                        if (newestFile) {
+                            echo "📄 Latest report found: ${newestFile.name}"
+                            publishHTML(target: [
+                                allowMissing: false,
+                                alwaysLinkToLastBuild: true,
+                                keepAll: true,
+                                reportDir: "Reports/CustomReport",
+                                reportFiles: newestFile.name,
+                                reportName: 'Latest Test Report'
+                            ])
+                        }
+                    } else {
+                        echo "⚠️ No HTML report found to publish."
+                    }
+                } catch (Exception e) {
+                    echo "❌ An error occurred while publishing the report: ${e.message}"
+                }
+            }
+        }
+    }
+}

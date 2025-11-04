@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-10-30 13:00:18.121 UTC</timestamp>
+  <md5sum>ac611b7c5913a4da5824b525c887fa30</md5sum>
+  <fileName>Credential id=dockerHubCredentials name=osamazazatestcrew/******</fileName>
+  <usages>
+    <entry>
+      <string>Build_test_push_to_dockerHub_Pipeline</string>
+      <ranges>228</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
