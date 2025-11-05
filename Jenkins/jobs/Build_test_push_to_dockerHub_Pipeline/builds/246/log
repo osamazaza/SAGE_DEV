@@ -1,0 +1,41 @@
+Started by user [8mha:////4ClkIFnM+B1SIHgWevAKFgd1XyxrRkhQZSFvr4AHCaCnAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL94sT0VABftSfCvwAAAA==[0msage
+Lightweight checkout support not available, falling back to full checkout.
+Checking out git https://github.com/osamazaza/sdbProjectLive into /var/jenkins_home/workspace/Build_test_push_to_dockerHub_Pipeline@script/f90af89403a3ceab824e076703de4128803fa7221386b5b152613ec70321ffa7 to read JenkinsPipelinesFiles/Jenkinsfile.buildAndPushToDockerHub
+The recommended git tool is: NONE
+using credential GIT_Credentials
+Cloning the remote Git repository
+Cloning repository https://github.com/osamazaza/sdbProjectLive
+ > git init /var/jenkins_home/workspace/Build_test_push_to_dockerHub_Pipeline@script/f90af89403a3ceab824e076703de4128803fa7221386b5b152613ec70321ffa7 # timeout=10
+Fetching upstream changes from https://github.com/osamazaza/sdbProjectLive
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/osamazaza/sdbProjectLive +refs/heads/*:refs/remotes/origin/* # timeout=10
+ERROR: Error cloning remote repo 'origin'
+hudson.plugins.git.GitException: Command "git fetch --tags --force --progress -- https://github.com/osamazaza/sdbProjectLive +refs/heads/*:refs/remotes/origin/*" returned status code 128:
+stdout: 
+stderr: fatal: detected dubious ownership in repository at '/var/jenkins_home/workspace/Build_test_push_to_dockerHub_Pipeline@script/f90af89403a3ceab824e076703de4128803fa7221386b5b152613ec70321ffa7'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/jenkins_home/workspace/Build_test_push_to_dockerHub_Pipeline@script/f90af89403a3ceab824e076703de4128803fa7221386b5b152613ec70321ffa7
+
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2844)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:2189)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:638)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:880)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1221)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM._checkout(GitSCM.java:1311)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1278)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:136)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:161)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:72)
+	at PluginClassLoader for workflow-job//org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:317)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:460)
+ERROR: Error cloning remote repo 'origin'
+ERROR: Maximum checkout retry attempts reached, aborting
+ERROR: Error cloning remote repo 'origin'
+ERROR: Maximum checkout retry attempts reached, aborting
+[withMaven] downstreamPipelineTriggerRunListener - Failure to introspect build steps: java.io.IOException: Build_test_push_to_dockerHub_Pipeline #246 did not yet start
+[withMaven] downstreamPipelineTriggerRunListener - Failure to introspect build steps: java.io.IOException: Build_test_push_to_dockerHub_Pipeline #246 did not yet start
+Finished: FAILURE

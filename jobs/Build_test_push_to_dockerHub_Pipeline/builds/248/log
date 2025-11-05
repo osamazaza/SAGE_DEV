@@ -1,0 +1,40 @@
+Started by user [8mha:////4ClkIFnM+B1SIHgWevAKFgd1XyxrRkhQZSFvr4AHCaCnAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL94sT0VABftSfCvwAAAA==[0msage
+Lightweight checkout support not available, falling back to full checkout.
+Checking out git https://github.com/osamazaza/sdbProjectLive into /var/jenkins_home/workspace/Build_test_push_to_dockerHub_Pipeline@script/f90af89403a3ceab824e076703de4128803fa7221386b5b152613ec70321ffa7 to read JenkinsPipelinesFiles/Jenkinsfile.buildAndPushToDockerHub
+The recommended git tool is: NONE
+using credential GIT_Credentials
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/Build_test_push_to_dockerHub_Pipeline@script/f90af89403a3ceab824e076703de4128803fa7221386b5b152613ec70321ffa7/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/osamazaza/sdbProjectLive # timeout=10
+ERROR: Error fetching remote repo 'origin'
+hudson.plugins.git.GitException: Failed to fetch from https://github.com/osamazaza/sdbProjectLive
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:999)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1240)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM._checkout(GitSCM.java:1311)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1278)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:136)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:161)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition.create(CpsScmFlowDefinition.java:72)
+	at PluginClassLoader for workflow-job//org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:317)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:460)
+Caused by: hudson.plugins.git.GitException: Command "git config remote.origin.url https://github.com/osamazaza/sdbProjectLive" returned status code 128:
+stdout: 
+stderr: fatal: not in a git directory
+
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2844)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2769)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2764)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:2057)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:2069)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.setRemoteUrl(CliGitAPIImpl.java:1668)
+	at PluginClassLoader for git-client//hudson.plugins.git.GitAPI.setRemoteUrl(GitAPI.java:182)
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.fetchFrom(GitSCM.java:987)
+	... 9 more
+ERROR: Error fetching remote repo 'origin'
+ERROR: Maximum checkout retry attempts reached, aborting
+ERROR: Error fetching remote repo 'origin'
+ERROR: Maximum checkout retry attempts reached, aborting
+[withMaven] downstreamPipelineTriggerRunListener - Failure to introspect build steps: java.io.IOException: Build_test_push_to_dockerHub_Pipeline #248 did not yet start
+[withMaven] downstreamPipelineTriggerRunListener - Failure to introspect build steps: java.io.IOException: Build_test_push_to_dockerHub_Pipeline #248 did not yet start
+Finished: FAILURE

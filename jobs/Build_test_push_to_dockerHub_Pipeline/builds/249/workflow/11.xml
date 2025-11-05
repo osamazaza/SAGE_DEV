@@ -1,0 +1,149 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@989.va_20a_1a_57710a_">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@4204.v2894b_cd7b_92f">
+    <parentIds>
+      <string>10</string>
+    </parentIds>
+    <id>11</id>
+    <startId>3</startId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@1384.vdc05a_48f535f">
+      <startTime>1762261259201</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@1384.vdc05a_48f535f">
+      <error class="java.io.IOException">
+        <detailMessage>Input/output error</detailMessage>
+        <cause class="org.jboss.marshalling.TraceInformation" plugin="workflow-support@989.va_20a_1a_57710a_">
+          <stackTrace/>
+          <suppressedExceptions class="empty-list"/>
+          <info class="org.jboss.marshalling.TraceInformation$ObjectInfo">
+            <cause class="org.jboss.marshalling.TraceInformation$ObjectInfo">
+              <cause class="org.jboss.marshalling.TraceInformation$FieldInfo">
+                <cause class="org.jboss.marshalling.TraceInformation$ObjectInfo">
+                  <targetClassName>java.lang.String</targetClassName>
+                  <targetHashCode>106164915</targetHashCode>
+                </cause>
+                <fieldName>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.closures</fieldName>
+              </cause>
+              <targetClassName>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup</targetClassName>
+              <targetHashCode>1440524790</targetHashCode>
+            </cause>
+            <targetClassName>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup</targetClassName>
+            <targetHashCode>1440524790</targetHashCode>
+          </info>
+        </cause>
+        <stackTrace>
+          <trace>java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)</trace>
+          <trace>java.base/sun.nio.ch.UnixFileDispatcherImpl.write(Unknown Source)</trace>
+          <trace>java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)</trace>
+          <trace>java.base/sun.nio.ch.IOUtil.write(Unknown Source)</trace>
+          <trace>java.base/sun.nio.ch.IOUtil.write(Unknown Source)</trace>
+          <trace>java.base/sun.nio.ch.FileChannelImpl.write(Unknown Source)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter$FileChannelOutput.write(RiverWriter.java:215)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.UTFUtils.writeUTFBytes(UTFUtils.java:131)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeKnownObject(RiverMarshaller.java:436)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:217)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.AbstractObjectOutput.writeObject(AbstractObjectOutput.java:58)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.AbstractMarshaller.writeObject(AbstractMarshaller.java:116)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeNewSerializableClass(RiverMarshaller.java:1574)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeNewSerialSuperClass(RiverMarshaller.java:1475)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeSerialSuperClass(RiverMarshaller.java:1313)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeNewSerializableClass(RiverMarshaller.java:1591)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeNewSerialSuperClass(RiverMarshaller.java:1475)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeSerialSuperClass(RiverMarshaller.java:1313)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeNewSerializableClass(RiverMarshaller.java:1591)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeSerializableClass(RiverMarshaller.java:1542)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:266)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.BlockMarshaller.doWriteObject(BlockMarshaller.java:65)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.BlockMarshaller.writeObject(BlockMarshaller.java:56)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.MarshallerObjectOutputStream.writeObjectOverride(MarshallerObjectOutputStream.java:50)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverObjectOutputStream.writeObjectOverride(RiverObjectOutputStream.java:179)</trace>
+          <trace>java.base/java.io.ObjectOutputStream.writeObject(Unknown Source)</trace>
+          <trace>java.base/java.util.HashMap.internalWriteEntries(Unknown Source)</trace>
+          <trace>java.base/java.util.HashMap.writeObject(Unknown Source)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.reflect.SerMethods.callWriteObject(SerMethods.java:69)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.reflect.SerializableClass.callWriteObject(SerializableClass.java:231)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1128)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:271)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1182)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1140)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:271)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.AbstractObjectOutput.writeObject(AbstractObjectOutput.java:58)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.AbstractMarshaller.writeObject(AbstractMarshaller.java:116)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.lambda$writeObject$1(RiverWriter.java:147)</trace>
+          <trace>PluginClassLoader for script-security//org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:329)</trace>
+          <trace>PluginClassLoader for workflow-support//org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.writeObject(RiverWriter.java:146)</trace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:610)</trace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:587)</trace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgramIfPossible(CpsThreadGroup.java:570)</trace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:494)</trace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:351)</trace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:299)</trace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:140)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+          <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)</trace>
+          <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+          <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)</trace>
+          <trace>jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)</trace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)</trace>
+          <trace>org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)</trace>
+          <trace>org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)</trace>
+          <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)</trace>
+          <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+        </stackTrace>
+        <suppressedExceptions>
+          <java.io.IOException>
+            <detailMessage>Input/output error</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)</trace>
+              <trace>java.base/sun.nio.ch.UnixFileDispatcherImpl.write(Unknown Source)</trace>
+              <trace>java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)</trace>
+              <trace>java.base/sun.nio.ch.IOUtil.write(Unknown Source)</trace>
+              <trace>java.base/sun.nio.ch.IOUtil.write(Unknown Source)</trace>
+              <trace>java.base/sun.nio.ch.FileChannelImpl.write(Unknown Source)</trace>
+              <trace>PluginClassLoader for workflow-support//org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter$FileChannelOutput.write(RiverWriter.java:215)</trace>
+              <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.SimpleDataOutput.flush(SimpleDataOutput.java:336)</trace>
+              <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.SimpleDataOutput.finish(SimpleDataOutput.java:378)</trace>
+              <trace>PluginClassLoader for workflow-support//org.jboss.marshalling.AbstractMarshaller.finish(AbstractMarshaller.java:131)</trace>
+              <trace>PluginClassLoader for workflow-support//org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.close(RiverWriter.java:179)</trace>
+              <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:609)</trace>
+              <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:587)</trace>
+              <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgramIfPossible(CpsThreadGroup.java:570)</trace>
+              <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:494)</trace>
+              <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:351)</trace>
+              <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:299)</trace>
+              <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:140)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)</trace>
+              <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+              <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)</trace>
+              <trace>jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)</trace>
+              <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)</trace>
+              <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)</trace>
+              <trace>org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)</trace>
+              <trace>org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)</trace>
+              <trace>PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+          </java.io.IOException>
+          <wf.a.ErrorAction_-ErrorId>
+            <stackTrace reference="../../../cause/stackTrace"/>
+            <suppressedExceptions class="empty-list"/>
+            <uuid>94605d38-d6e3-4c2a-9705-b1942ed0fea9</uuid>
+          </wf.a.ErrorAction_-ErrorId>
+        </suppressedExceptions>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

@@ -6,8 +6,14 @@
   <usages>
     <entry>
       <string>Build_test_push_to_dockerHub_Pipeline</string>
-      <ranges>241-246</ranges>
+      <ranges>241-249,252</ranges>
     </entry>
   </usages>
-  <facets/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1447.v4cb_b_539b_5321">
+      <timestamp>1762262522840</timestamp>
+      <itemFullName>Build_test_push_to_dockerHub_Pipeline</itemFullName>
+      <timestamp0>1762261520320</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
 </fingerprint>

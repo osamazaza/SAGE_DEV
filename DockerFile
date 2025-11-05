@@ -30,12 +30,12 @@ COPY . .
     
     # Default command
     #ENTRYPOINT ["/app/entrypoint.sh"]
-
+    
 
     ENTRYPOINT ["/bin/bash", "-c", "\
     echo \"Starting selenium-test-runner container...\"; \
     echo \"--- Running Maven tests ---\"; \
-    mvn test -DsuiteXmlFile=Suites/requestLoanForProductiveFamilySuite/requestLoanForProductiveFamilyOneBrowser.xml -X; \
+    mvn test -DsuiteXmlFile=Suites/JustForTest.xml -X; \
     TEST_EXIT_CODE=$?; \
     echo \"-----------------------------------\"; \
     echo \"Tests finished with exit code: $TEST_EXIT_CODE\"; \

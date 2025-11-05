@@ -1,0 +1,29 @@
+Started by user [8mha:////4JCvRdoy+sCDbdcNzwfFiYWYnkdWKD7Jn6SOXu+kBkRyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9/OLE3EQAVkbZ1MAAAAA=[0mosama zazaza
+Lightweight checkout support not available, falling back to full checkout.
+Checking out git https://github.com/osamazaza/sdbProject.git into /var/jenkins_home/workspace/pullAndRunFromDockerHub@script/718f8d7e794160809c43a141bfb199784ac7d88d6042d864433cc7933c16b481 to read JenkinsPipelinesFiles\Jenkinsfile.pullAndRunFromDockerHub
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/osamazaza/sdbProject.git
+ > git init /var/jenkins_home/workspace/pullAndRunFromDockerHub@script/718f8d7e794160809c43a141bfb199784ac7d88d6042d864433cc7933c16b481 # timeout=10
+Fetching upstream changes from https://github.com/osamazaza/sdbProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/osamazaza/sdbProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/osamazaza/sdbProject.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Seen branch in repository origin/master
+Seen branch in repository origin/myBranch
+Seen branch in repository origin/sdbProjectExecutor
+Seen 3 remote branches
+ > git show-ref --tags -d # timeout=10
+Multiple candidate revisions
+Checking out Revision 74343ebb44720ea0e22e877fb37c8028b3eda4bd (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 74343ebb44720ea0e22e877fb37c8028b3eda4bd # timeout=10
+Commit message: "gfgf"
+First time build. Skipping changelog.
+ERROR: /var/jenkins_home/workspace/pullAndRunFromDockerHub@script/718f8d7e794160809c43a141bfb199784ac7d88d6042d864433cc7933c16b481/JenkinsPipelinesFiles/Jenkinsfile.pullAndRunFromDockerHub not found
+Finished: FAILURE

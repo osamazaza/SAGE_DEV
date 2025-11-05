@@ -1,0 +1,186 @@
+Started by user [8mha:////4JCvRdoy+sCDbdcNzwfFiYWYnkdWKD7Jn6SOXu+kBkRyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9/OLE3EQAVkbZ1MAAAAA=[0mosama zazaza
+Lightweight checkout support not available, falling back to full checkout.
+Checking out git https://github.com/osamazaza/sdbProject.git into /var/jenkins_home/workspace/pullAndRunFromDockerHub@script/718f8d7e794160809c43a141bfb199784ac7d88d6042d864433cc7933c16b481 to read JenkinsPipelinesFiles\Jenkinsfile.pullAndRunFromDockerHub
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/pullAndRunFromDockerHub@script/718f8d7e794160809c43a141bfb199784ac7d88d6042d864433cc7933c16b481/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/osamazaza/sdbProject.git # timeout=10
+Fetching upstream changes from https://github.com/osamazaza/sdbProject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+ > git fetch --tags --force --progress -- https://github.com/osamazaza/sdbProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/master
+Seen branch in repository origin/myBranch
+Seen branch in repository origin/sdbProjectExecutor
+Seen 3 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 82657bd507f386e9c76c0bb9eb6f4b8082feef4e (origin/sdbProjectExecutor)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 82657bd507f386e9c76c0bb9eb6f4b8082feef4e # timeout=10
+Commit message: "update"
+ > git rev-list --no-walk 82657bd507f386e9c76c0bb9eb6f4b8082feef4e # timeout=10
+[8mha:////4CHeOKRRUM5GLl6/I6t8rI+FQFw2V5/orZKUsifKjhBPAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FFBO/rjGISvup0x96aeW9Cxjc32RvAfXa4k/cYO7BnAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor
+Pausing
+Resuming build at Mon Aug 18 12:30:54 UTC 2025 after Jenkins restart
+Still paused
+Running on [8mha:////4Pnauq2h35UDBJMHrqkwcopmkEPmEuxIsEyOkFIHDFcOAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZR/eT83ILSktQi/ZT85OzUIj+ga/UBffVhUsoAAAA=[0mdockerNode in C:\Users\user\Desktop\MyDataUntil2025\Tutorials\Cources\Jenkins\jenkins_slave\workspace\pullAndRunFromDockerHub
+[8mha:////4FU/9yu8x81JzhbBf1u8A+9q+mTGdM61LQuOVlsZbLQCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+Aborted by [8mha:////4JCvRdoy+sCDbdcNzwfFiYWYnkdWKD7Jn6SOXu+kBkRyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9/OLE3EQAVkbZ1MAAAAA=[0mosama zazaza
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+Resuming build at Mon Aug 18 13:19:35 UTC 2025 after Jenkins restart
+Waiting for reconnection of dockerNode before proceeding with build
+Still paused
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+ERROR: node block still appears to be neither running nor scheduled; cancelling
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+ERROR: node block still appears to be neither running nor scheduled; cancelling
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+ERROR: node block still appears to be neither running nor scheduled; cancelling
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+ERROR: node block still appears to be neither running nor scheduled; cancelling
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+ERROR: node block still appears to be neither running nor scheduled; cancelling
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+ERROR: node block still appears to be neither running nor scheduled; cancelling
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+ERROR: node block still appears to be neither running nor scheduled; cancelling
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+ERROR: node block still appears to be neither running nor scheduled; cancelling
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+ERROR: node block still appears to be neither running nor scheduled; cancelling
+ERROR: node block appears to be neither running nor scheduled; will cancel if this condition persists
+ERROR: node block still appears to be neither running nor scheduled; cancelling
+java.io.IOException: Aborting build
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at Script1.run(Script1.groovy:4)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:574)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:612)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:583)
+	at hudson.util.RemotingDiagnostics$Script.evaluateScript(RemotingDiagnostics.java:171)
+	at hudson.util.RemotingDiagnostics$Script.call(RemotingDiagnostics.java:160)
+	at hudson.util.RemotingDiagnostics$Script.call(RemotingDiagnostics.java:130)
+	at hudson.remoting.LocalChannel.call(LocalChannel.java:47)
+	at hudson.util.RemotingDiagnostics.executeGroovy(RemotingDiagnostics.java:125)
+	at jenkins.model.Jenkins._doScript(Jenkins.java:4916)
+	at jenkins.model.Jenkins.doScript(Jenkins.java:4861)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(Unknown Source)
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:484)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:497)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:218)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:140)
+	at org.kohsuke.stapler.MetaClass$12.doDispatch(MetaClass.java:686)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:61)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:800)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:938)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:871)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:938)
+	at org.kohsuke.stapler.MetaClass$10.dispatch(MetaClass.java:590)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:800)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:938)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:721)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:253)
+	at Jenkins Main ClassLoader//jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHolder.handle(ServletHolder.java:765)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1668)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:204)
+	at PluginClassLoader for metrics//jenkins.metrics.impl.MetricsFilter.doFilter(MetricsFilter.java:125)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at jenkins.util.HttpServletFilter$1.doFilter(HttpServletFilter.java:77)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:201)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:207)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at jenkins.ErrorAttributeFilter.doFilter(ErrorAttributeFilter.java:29)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:154)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:94)
+	at jenkins.security.AcegiSecurityExceptionFilter.doFilter(AcegiSecurityExceptionFilter.java:52)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:54)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:114)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:105)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:106)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:117)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:63)
+	at hudson.security.ChainedServletFilter2$1.doFilter(ChainedServletFilter2.java:99)
+	at hudson.security.ChainedServletFilter2.doFilter(ChainedServletFilter2.java:111)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:173)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at org.kohsuke.stapler.UncaughtExceptionFilter.doFilter(UncaughtExceptionFilter.java:26)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:86)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:31)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at jenkins.security.SuspiciousRequestFilter.doFilter(SuspiciousRequestFilter.java:38)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.FilterHolder.doFilter(FilterHolder.java:202)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1638)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler.doHandle(ServletHandler.java:526)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.handle(ScopedHandler.java:127)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HandlerWrapper.handle(HandlerWrapper.java:124)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextHandle(ScopedHandler.java:197)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.SessionHandler.doHandle(SessionHandler.java:612)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextHandle(ScopedHandler.java:195)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.doHandle(ContextHandler.java:1045)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:164)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.servlet.ServletHandler.doScope(ServletHandler.java:483)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:162)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.SessionHandler.doScope(SessionHandler.java:589)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.nextScope(ScopedHandler.java:162)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.doScope(ContextHandler.java:966)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ScopedHandler.handle(ScopedHandler.java:125)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler.handle(ContextHandler.java:1719)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel$RequestDispatchable.dispatch(HttpChannel.java:1565)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel.dispatch(HttpChannel.java:724)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.HttpChannel.handle(HttpChannel.java:512)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.nested.ContextHandler$CoreContextHandler$CoreToNestedHandler.handle(ContextHandler.java:3029)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.handler.ContextHandler.handle(ContextHandler.java:1071)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:611)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.Server.handle(Server.java:182)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.internal.HttpChannelState$HandlerInvoker.run(HttpChannelState.java:678)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.server.internal.HttpConnection.onFillable(HttpConnection.java:416)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:322)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:99)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.runTask(AdaptiveExecutionStrategy.java:480)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.consumeTask(AdaptiveExecutionStrategy.java:443)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.tryProduce(AdaptiveExecutionStrategy.java:293)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.strategy.AdaptiveExecutionStrategy.run(AdaptiveExecutionStrategy.java:201)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:311)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:981)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.doRunJob(QueuedThreadPool.java:1211)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1166)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Finished: ABORTED

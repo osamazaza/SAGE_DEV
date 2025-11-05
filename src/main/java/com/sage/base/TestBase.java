@@ -1115,7 +1115,7 @@ if(SharedTestData.isVideoRecordingEnabled){
 		sparkReporter.config().setTimelineEnabled(true);
 		sparkReporter.config().setDocumentTitle("UI Automation Report");
 
-		String logoPath = SharedTestData.projectPath + "/sdb.png";
+		String logoPath = SharedTestData.projectPath + "/sage.jpg";
 		sparkReporter.config().setReportName(
 				"<span class='report-logo'><img src=' " + logoPath + "' width='300' height='100'/></span>");
 

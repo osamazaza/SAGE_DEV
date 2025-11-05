@@ -4,11 +4,7 @@
   <version>2.528.1</version>
   <numExecutors>0</numExecutors>
   <mode>NORMAL</mode>
-  <useSecurity>true</useSecurity>
-  <authorizationStrategy class="hudson.security.FullControlOnceLoggedInAuthorizationStrategy">
-    <denyAnonymousReadAccess>false</denyAnonymousReadAccess>
-  </authorizationStrategy>
-  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+  <useSecurity>false</useSecurity>
     <disableSignup>false</disableSignup>
     <enableCaptcha>false</enableCaptcha>
   </securityRealm>

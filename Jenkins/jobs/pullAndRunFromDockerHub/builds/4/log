@@ -1,0 +1,467 @@
+Started by user [8mha:////4JCvRdoy+sCDbdcNzwfFiYWYnkdWKD7Jn6SOXu+kBkRyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9/OLE3EQAVkbZ1MAAAAA=[0mosama zazaza
+[8mha:////4CHeOKRRUM5GLl6/I6t8rI+FQFw2V5/orZKUsifKjhBPAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4FFBO/rjGISvup0x96aeW9Cxjc32RvAfXa4k/cYO7BnAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Pnauq2h35UDBJMHrqkwcopmkEPmEuxIsEyOkFIHDFcOAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZR/eT83ILSktQi/ZT85OzUIj+ga/UBffVhUsoAAAA=[0mdockerNode in C:\Users\user\Desktop\MyDataUntil2025\Tutorials\Cources\Jenkins\jenkins_slave\workspace\pullAndRunFromDockerHub
+[8mha:////4FU/9yu8x81JzhbBf1u8A+9q+mTGdM61LQuOVlsZbLQCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4Hweyj+ZQ4RpJ+gdaE3mNumf221ikSMJAxKwqUN3r/pFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4LMDDY2+Z3wnAGrNgn8X2Wxpn3J4bm3KLXraV+v+umQJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Pull Latest Image)
+[8mha:////4PviE3UmgdTN03oQmYrnFxs5NdSQsGgw89/qE6jDAtp3AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] bat
+
+C:\Users\user\Desktop\MyDataUntil2025\Tutorials\Cources\Jenkins\jenkins_slave\workspace\pullAndRunFromDockerHub>docker pull osamazaza/sage 
+Using default tag: latest
+latest: Pulling from osamazaza/sage
+Digest: sha256:52cb3fce4bdd9bdc488f4b535c19506aa09c134e276ed154e976f3c01a6c933b
+Status: Image is up to date for osamazaza/sage:latest
+docker.io/osamazaza/sage:latest
+[8mha:////4AhpV8dz32alH18sdSooUKS8sT0aMERNIyp4mj3cnF0VAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4JuLQ8MVPe1SRqlfMI93VIS6PLcHvnpV9vkn5Xy5qfB8AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4MNCOziUQtP45USLog6VhLPxv5NKueCdM8irFq+t+F1IAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4E9T9qXeE9hDEKhqolVZXIAlntGwDJp9ZCbH9zAE8ujcAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Run Test)
+[8mha:////4O8nvHCF+Lixn/RmBsA8de7RYznGbqiffhU6muTNDw4WAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] bat
+
+C:\Users\user\Desktop\MyDataUntil2025\Tutorials\Cources\Jenkins\jenkins_slave\workspace\pullAndRunFromDockerHub>docker compose up --build 
+ Network pullandrunfromdockerhub_default  Creating
+ Network pullandrunfromdockerhub_default  Created
+ Container seleniumHub  Creating
+ Container seleniumHub  Created
+ Container edgeNode  Creating
+ Container chromeNode  Creating
+ Container firefoxNode  Creating
+ Container edgeNode  Created
+ Container chromeNode  Created
+ Container pullandrunfromdockerhub-chrome_video-1  Creating
+ Container firefoxNode  Created
+ Container pullandrunfromdockerhub-chrome_video-1  Created
+ Container container1  Creating
+ Container container1  Created
+Attaching to chromeNode, container1, edgeNode, firefoxNode, chrome_video-1, seleniumHub
+seleniumHub     | Virtual environment detected at /opt/venv, activating...
+seleniumHub     | Python 3.12.3
+firefoxNode     | Virtual environment detected at /opt/venv, activating...
+firefoxNode     | Python 3.12.3
+edgeNode        | Virtual environment detected at /opt/venv, activating...
+edgeNode        | Python 3.12.3
+chromeNode      | Virtual environment detected at /opt/venv, activating...
+chromeNode      | Python 3.12.3
+seleniumHub     | 2025-08-17 13:51:58,681 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+edgeNode        | 2025-08-17 13:51:58,692 INFO Included extra file "/etc/supervisor/conf.d/edge-cleanup.conf" during parsing
+edgeNode        | 2025-08-17 13:51:58,692 INFO Included extra file "/etc/supervisor/conf.d/recorder.conf" during parsing
+edgeNode        | 2025-08-17 13:51:58,692 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+edgeNode        | 2025-08-17 13:51:58,692 INFO Included extra file "/etc/supervisor/conf.d/uploader.conf" during parsing
+firefoxNode     | 2025-08-17 13:51:58,693 INFO Included extra file "/etc/supervisor/conf.d/firefox-cleanup.conf" during parsing
+firefoxNode     | 2025-08-17 13:51:58,693 INFO Included extra file "/etc/supervisor/conf.d/recorder.conf" during parsing
+firefoxNode     | 2025-08-17 13:51:58,693 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefoxNode     | 2025-08-17 13:51:58,693 INFO Included extra file "/etc/supervisor/conf.d/uploader.conf" during parsing
+chromeNode      | 2025-08-17 13:51:58,693 INFO Included extra file "/etc/supervisor/conf.d/chrome-cleanup.conf" during parsing
+chromeNode      | 2025-08-17 13:51:58,693 INFO Included extra file "/etc/supervisor/conf.d/recorder.conf" during parsing
+chromeNode      | 2025-08-17 13:51:58,693 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chromeNode      | 2025-08-17 13:51:58,693 INFO Included extra file "/etc/supervisor/conf.d/uploader.conf" during parsing
+chromeNode      | 2025-08-17 13:51:58,699 INFO RPC interface 'supervisor' initialized
+chromeNode      | 2025-08-17 13:51:58,700 INFO supervisord started with pid 9
+edgeNode        | 2025-08-17 13:51:58,700 INFO RPC interface 'supervisor' initialized
+edgeNode        | 2025-08-17 13:51:58,700 INFO supervisord started with pid 9
+seleniumHub     | 2025-08-17 13:51:58,701 INFO RPC interface 'supervisor' initialized
+seleniumHub     | 2025-08-17 13:51:58,702 INFO supervisord started with pid 9
+firefoxNode     | 2025-08-17 13:51:58,704 INFO RPC interface 'supervisor' initialized
+firefoxNode     | 2025-08-17 13:51:58,705 INFO supervisord started with pid 9
+chrome_video-1  | Virtual environment detected at /opt/venv, activating...
+chrome_video-1  | Python 3.12.3
+chrome_video-1  | 2025-08-17 13:51:59,219 INFO Included extra file "/etc/supervisor/conf.d/recorder.conf" during parsing
+chrome_video-1  | 2025-08-17 13:51:59,219 INFO Included extra file "/etc/supervisor/conf.d/uploader.conf" during parsing
+chrome_video-1  | 2025-08-17 13:51:59,225 INFO RPC interface 'supervisor' initialized
+chrome_video-1  | 2025-08-17 13:51:59,226 INFO supervisord started with pid 9
+container1      | Starting selenium-test-runner container...
+container1      | SELENIUM_REMOTE_URL is set to: http://seleniumHub:4444
+container1      | --- Running Maven tests directly ---
+edgeNode        | 2025-08-17 13:51:59,707 INFO spawned: 'xvfb' with pid 10
+seleniumHub     | 2025-08-17 13:51:59,706 INFO spawned: 'selenium-grid-hub' with pid 10
+chromeNode      | 2025-08-17 13:51:59,709 INFO spawned: 'xvfb' with pid 10
+edgeNode        | 2025-08-17 13:51:59,710 INFO spawned: 'vnc' with pid 11
+chromeNode      | 2025-08-17 13:51:59,711 INFO spawned: 'vnc' with pid 11
+firefoxNode     | 2025-08-17 13:51:59,713 INFO spawned: 'xvfb' with pid 10
+edgeNode        | 2025-08-17 13:51:59,714 INFO spawned: 'novnc' with pid 12
+firefoxNode     | 2025-08-17 13:51:59,717 INFO spawned: 'vnc' with pid 11
+chromeNode      | 2025-08-17 13:51:59,718 INFO spawned: 'novnc' with pid 12
+edgeNode        | 2025-08-17 13:51:59,718 INFO spawned: 'selenium-node' with pid 14
+seleniumHub     | Starting Selenium Grid Hub...
+seleniumHub     | 2025-08-17 13:51:59,719 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+seleniumHub     | Appending Selenium option: --port 4444
+seleniumHub     | Appending Selenium option: --log-level INFO
+seleniumHub     | Appending Selenium option: --http-logs false
+seleniumHub     | Appending Selenium option: --structured-logs false
+seleniumHub     | Appending Selenium option: --reject-unsupported-caps false
+seleniumHub     | Appending Selenium option: --slot-selector org.openqa.selenium.grid.distributor.selector.GreedySlotSelector
+seleniumHub     | Appending Selenium option: --session-request-timeout 300
+seleniumHub     | Appending Selenium option: --session-retry-interval 15
+seleniumHub     | Appending Selenium option: --healthcheck-interval 120
+seleniumHub     | Appending Selenium option: --relax-checks true
+seleniumHub     | Appending Selenium option: --bind-host false
+seleniumHub     | Appending Selenium option: --config /opt/selenium/config.toml
+seleniumHub     | Appending Selenium option: --tracing false
+seleniumHub     | Tracing is disabled
+seleniumHub     | Using JAVA_OPTS:  -Dwebdriver.remote.enableTracing=false -Dwebdriver.httpclient.version=HTTP_1_1
+chromeNode      | 2025-08-17 13:51:59,725 INFO spawned: 'selenium-node' with pid 14
+firefoxNode     | 2025-08-17 13:51:59,728 INFO spawned: 'novnc' with pid 13
+edgeNode        | 2025-08-17 13:51:59,733 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+firefoxNode     | 2025-08-17 13:51:59,740 INFO spawned: 'selenium-node' with pid 19
+chromeNode      | 2025-08-17 13:51:59,742 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+firefoxNode     | 2025-08-17 13:51:59,743 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome_video-1  | 2025-08-17 13:52:00,229 INFO spawned: 'video-ready' with pid 10
+chrome_video-1  | 2025-08-17 13:52:00,234 INFO spawned: 'video-recording' with pid 11
+chrome_video-1  | 2025-08-17 13:52:00,281 [video.recorder] - Video folder exists: /videos
+chrome_video-1  | 2025-08-17 13:52:00,284 INFO success: video-ready entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome_video-1  | 2025-08-17 13:52:00,284 INFO success: video-recording entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome_video-1  | 2025-08-17 13:52:00,291 [video.recorder] - Waiting for the display ChromeService:99.0 is open
+chromeNode      | Appending Selenium option: --enable-managed-downloads true
+chromeNode      | Appending Selenium option: --register-period 120
+chromeNode      | Appending Selenium option: --register-cycle 10
+chromeNode      | Appending Selenium option: --register-shutdown-on-failure 
+chromeNode      | Appending Selenium option: --delete-session-on-ui true
+chromeNode      | Appending Selenium option: --heartbeat-period 30
+chromeNode      | Appending Selenium option: --log-level INFO
+chromeNode      | Appending Selenium option: --http-logs false
+chromeNode      | Appending Selenium option: --structured-logs false
+chromeNode      | Generating Selenium Config
+firefoxNode     | Appending Selenium option: --enable-managed-downloads true
+firefoxNode     | Appending Selenium option: --register-period 120
+firefoxNode     | Appending Selenium option: --register-cycle 10
+firefoxNode     | Appending Selenium option: --register-shutdown-on-failure 
+firefoxNode     | Appending Selenium option: --delete-session-on-ui true
+firefoxNode     | Appending Selenium option: --heartbeat-period 30
+firefoxNode     | Appending Selenium option: --log-level INFO
+firefoxNode     | Appending Selenium option: --http-logs false
+firefoxNode     | Appending Selenium option: --structured-logs false
+firefoxNode     | Generating Selenium Config
+firefoxNode     | Configuring server...
+firefoxNode     | Setting up SE_NODE_HOST...
+firefoxNode     | Setting up SE_NODE_PORT...
+firefoxNode     | Setting up SE_NODE_GRID_URL...
+edgeNode        | Appending Selenium option: --enable-managed-downloads true
+edgeNode        | Appending Selenium option: --register-period 120
+edgeNode        | Appending Selenium option: --register-cycle 10
+edgeNode        | Appending Selenium option: --register-shutdown-on-failure 
+edgeNode        | Appending Selenium option: --delete-session-on-ui true
+edgeNode        | Appending Selenium option: --heartbeat-period 30
+edgeNode        | Appending Selenium option: --log-level INFO
+edgeNode        | Appending Selenium option: --http-logs false
+edgeNode        | Appending Selenium option: --structured-logs false
+edgeNode        | Generating Selenium Config
+chromeNode      | Configuring server...
+chromeNode      | Setting up SE_NODE_HOST...
+chromeNode      | Setting up SE_NODE_PORT...
+edgeNode        | Configuring server...
+edgeNode        | Setting up SE_NODE_HOST...
+chromeNode      | Setting up SE_NODE_GRID_URL...
+edgeNode        | Setting up SE_NODE_PORT...
+edgeNode        | Setting up SE_NODE_GRID_URL...
+chrome_video-1  | 2025-08-17 13:52:00,687 [video.recorder] - Display ChromeService:99.0 is open with dimensions 1920x1080
+chrome_video-1  | 2025-08-17 13:52:00,692 [video.recorder] - Waiting for Node endpoint responds
+firefoxNode     | Appending Selenium option: --tracing false
+firefoxNode     | Tracing is disabled
+firefoxNode     | Appending Selenium option: --bind-host false
+firefoxNode     | Appending Selenium option: --config /opt/selenium/config.toml
+firefoxNode     | Selenium Grid Node configuration: 
+firefoxNode     | [events]
+firefoxNode     |     publish = "tcp://seleniumHub:4442"
+firefoxNode     |     subscribe = "tcp://seleniumHub:4443"
+firefoxNode     |     
+firefoxNode     | [node]
+firefoxNode     | session-timeout = 300
+firefoxNode     | override-max-sessions = false
+firefoxNode     | detect-drivers = false
+firefoxNode     | drain-after-session-count = 0
+firefoxNode     | max-sessions = 2
+firefoxNode     | 
+firefoxNode     | [[node.driver-configuration]]
+firefoxNode     | display-name = "firefox"
+firefoxNode     | stereotype = '{"browserName":"firefox","browserVersion":"141.0","platformName":"Linux","se:containerName":"65fd5bba8843","container:hostname":"65fd5bba8843","moz:firefoxOptions":{"binary":"/usr/bin/firefox"}}'
+firefoxNode     | max-sessions = 2
+firefoxNode     |     
+firefoxNode     | Starting Selenium Grid Node...
+firefoxNode     | Using JAVA_OPTS:  -Dwebdriver.remote.enableTracing=false -Dwebdriver.httpclient.version=HTTP_1_1
+chromeNode      | Appending Selenium option: --tracing false
+chromeNode      | Tracing is disabled
+chromeNode      | Appending Selenium option: --bind-host false
+chromeNode      | Appending Selenium option: --config /opt/selenium/config.toml
+chromeNode      | Selenium Grid Node configuration: 
+chromeNode      | 2025-08-17 13:52:00,713 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chromeNode      | 2025-08-17 13:52:00,713 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chromeNode      | 2025-08-17 13:52:00,714 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chromeNode      | [events]
+chromeNode      |     publish = "tcp://seleniumHub:4442"
+chromeNode      |     subscribe = "tcp://seleniumHub:4443"
+chromeNode      |     
+chromeNode      | [node]
+chromeNode      | session-timeout = 300
+chromeNode      | override-max-sessions = false
+chromeNode      | detect-drivers = false
+chromeNode      | drain-after-session-count = 0
+chromeNode      | max-sessions = 1
+chromeNode      | 
+chromeNode      | [[node.driver-configuration]]
+chromeNode      | display-name = "chrome"
+chromeNode      | stereotype = '{"browserName":"chrome","browserVersion":"139.0","platformName":"Linux","se:containerName":"0b1cbb8d3b2c","container:hostname":"0b1cbb8d3b2c","goog:chromeOptions":{"binary":"/usr/bin/google-chrome"}}'
+chromeNode      | max-sessions = 1
+chromeNode      |     
+chromeNode      | Starting Selenium Grid Node...
+chromeNode      | Using JAVA_OPTS:  -Dwebdriver.remote.enableTracing=false -Dwebdriver.httpclient.version=HTTP_1_1
+edgeNode        | Appending Selenium option: --tracing false
+edgeNode        | 2025-08-17 13:52:00,735 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edgeNode        | 2025-08-17 13:52:00,735 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edgeNode        | 2025-08-17 13:52:00,735 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edgeNode        | Tracing is disabled
+edgeNode        | Appending Selenium option: --bind-host false
+edgeNode        | Appending Selenium option: --config /opt/selenium/config.toml
+edgeNode        | Selenium Grid Node configuration: 
+edgeNode        | [events]
+edgeNode        |     publish = "tcp://seleniumHub:4442"
+edgeNode        |     subscribe = "tcp://seleniumHub:4443"
+edgeNode        |     
+edgeNode        | [node]
+edgeNode        | session-timeout = 300
+edgeNode        | override-max-sessions = false
+edgeNode        | detect-drivers = false
+edgeNode        | drain-after-session-count = 0
+edgeNode        | max-sessions = 2
+edgeNode        | 
+edgeNode        | [[node.driver-configuration]]
+edgeNode        | display-name = "MicrosoftEdge"
+edgeNode        | stereotype = '{"browserName":"MicrosoftEdge","browserVersion":"139.0","platformName":"Linux","se:containerName":"8d477a0b31d5","container:hostname":"8d477a0b31d5","ms:edgeOptions":{"binary":"/usr/bin/microsoft-edge"}}'
+edgeNode        | max-sessions = 2
+edgeNode        |     
+edgeNode        | Starting Selenium Grid Node...
+edgeNode        | Using JAVA_OPTS:  -Dwebdriver.remote.enableTracing=false -Dwebdriver.httpclient.version=HTTP_1_1
+firefoxNode     | 2025-08-17 13:52:00,864 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefoxNode     | 2025-08-17 13:52:00,865 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefoxNode     | 2025-08-17 13:52:00,866 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+container1      | Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+container1      | Maven home: /usr/share/maven
+container1      | Java version: 17.0.11, vendor: Eclipse Adoptium, runtime: /opt/java/openjdk
+container1      | Default locale: en_US, platform encoding: UTF-8
+container1      | OS name: "linux", version: "6.6.87.1-microsoft-standard-wsl2", arch: "amd64", family: "unix"
+chrome_video-1  | 2025-08-17 13:52:02,041 [endpoint.checks] - Failed to connect to endpoint http://ChromeService:5555/status
+seleniumHub     | 13:52:03.099 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+edgeNode        | 13:52:03.113 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+seleniumHub     | 13:52:03.131 INFO [LoggingOptions.getTracer] - Using null tracer
+edgeNode        | 13:52:03.137 INFO [LoggingOptions.getTracer] - Using null tracer
+chromeNode      | 13:52:03.148 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+firefoxNode     | 13:52:03.155 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+chromeNode      | 13:52:03.179 INFO [LoggingOptions.getTracer] - Using null tracer
+firefoxNode     | 13:52:03.187 INFO [LoggingOptions.getTracer] - Using null tracer
+seleniumHub     | 13:52:03.614 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.21.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.21.0.2:4443]
+firefoxNode     | 13:52:03.625 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://seleniumHub:4442 and tcp://seleniumHub:4443
+chromeNode      | 13:52:03.625 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://seleniumHub:4442 and tcp://seleniumHub:4443
+edgeNode        | 13:52:03.632 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://seleniumHub:4442 and tcp://seleniumHub:4443
+seleniumHub     | 13:52:04.113 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.21.0.2:4442 and tcp://172.21.0.2:4443
+chromeNode      | 13:52:04.131 INFO [UnboundZmqEventBus.<init>] - Sockets created
+firefoxNode     | 13:52:04.138 INFO [UnboundZmqEventBus.<init>] - Sockets created
+edgeNode        | 13:52:04.175 INFO [UnboundZmqEventBus.<init>] - Sockets created
+chrome_video-1  | 2025-08-17 13:52:04,178 [endpoint.checks] - Failed to connect to endpoint http://ChromeService:5555/status
+seleniumHub     | 13:52:04.213 INFO [UnboundZmqEventBus.<init>] - Sockets created
+firefoxNode     | 13:52:05.159 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+chromeNode      | 13:52:05.161 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+edgeNode        | 13:52:05.182 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+seleniumHub     | 13:52:05.226 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+container1      | [DEBUG] Created new class realm maven.api
+container1      | [DEBUG] Importing foreign packages into class realm maven.api
+container1      | [DEBUG]   Imported: javax.annotation.* < plexus.core
+container1      | [DEBUG]   Imported: javax.annotation.security.* < plexus.core
+container1      | [DEBUG]   Imported: javax.inject.* < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.* < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.cli < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.exception < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.execution < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.graph < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.model < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.project < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.repository < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.settings < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.usability < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+container1      | [DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+container1      | [DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+container1      | [DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+container1      | [DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+container1      | [DEBUG]   Imported: org.slf4j.* < plexus.core
+container1      | [DEBUG]   Imported: org.slf4j.event.* < plexus.core
+container1      | [DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+container1      | [DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+container1      | [DEBUG] Populating class realm maven.api
+container1      | [DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+chrome_video-1  | 2025-08-17 13:52:05,943 [endpoint.checks] - Failed to connect to endpoint http://ChromeService:5555/status
+edgeNode        | 13:52:06.225 INFO [NodeServer.createHandlers] - Reporting self as: http://172.21.0.4:5555
+chromeNode      | 13:52:06.228 INFO [NodeServer.createHandlers] - Reporting self as: http://172.21.0.5:5555
+edgeNode        | 13:52:06.246 INFO [LoggingOptions.getTracer] - Using null tracer
+chromeNode      | 13:52:06.255 INFO [LoggingOptions.getTracer] - Using null tracer
+container1      | [INFO] Error stacktraces are turned on.
+container1      | [DEBUG] Message scheme: color
+container1      | [DEBUG] Message styles: debug info warning error success failure strong mojo project
+container1      | [DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+container1      | [DEBUG] Reading user settings from /root/.m2/settings.xml
+firefoxNode     | 13:52:06.317 INFO [NodeServer.createHandlers] - Reporting self as: http://172.21.0.3:5555
+firefoxNode     | 13:52:06.340 INFO [LoggingOptions.getTracer] - Using null tracer
+container1      | [DEBUG] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+chromeNode      | 13:52:06.361 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+edgeNode        | 13:52:06.365 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+container1      | [DEBUG] Reading user toolchains from /root/.m2/toolchains.xml
+firefoxNode     | 13:52:06.392 INFO [NodeOptions.getSessionFactories] - Detected 8 available processors
+container1      | [DEBUG] Using local repository at /root/.m2/repository
+container1      | [DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /root/.m2/repository
+container1      | [INFO] Scanning for projects...
+chromeNode      | 13:52:06.543 INFO [NodeOptions.report] - Adding chrome for {"browserName": "chrome","browserVersion": "139.0","container:hostname": "0b1cbb8d3b2c","goog:chromeOptions": {"binary": "\u002fusr\u002fbin\u002fgoogle-chrome"},"platformName": "linux","se:containerName": "0b1cbb8d3b2c","se:deleteSessionOnUi": true,"se:downloadsEnabled": true,"se:noVncPort": 7900,"se:vncEnabled": true} 1 times
+edgeNode        | 13:52:06.559 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserName": "MicrosoftEdge","browserVersion": "139.0","container:hostname": "8d477a0b31d5","ms:edgeOptions": {"binary": "\u002fusr\u002fbin\u002fmicrosoft-edge"},"platformName": "linux","se:containerName": "8d477a0b31d5","se:deleteSessionOnUi": true,"se:downloadsEnabled": true,"se:noVncPort": 7900,"se:vncEnabled": true} 2 times
+firefoxNode     | 13:52:06.562 INFO [NodeOptions.report] - Adding firefox for {"browserName": "firefox","browserVersion": "141.0","container:hostname": "65fd5bba8843","moz:firefoxOptions": {"binary": "\u002fusr\u002fbin\u002ffirefox"},"platformName": "linux","se:containerName": "65fd5bba8843","se:deleteSessionOnUi": true,"se:downloadsEnabled": true,"se:noVncPort": 7900,"se:vncEnabled": true} 2 times
+container1      | [DEBUG] Extension realms for project org.apache.maven:standalone-pom:pom:1: (none)
+container1      | [DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+firefoxNode     | 13:52:06.677 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+edgeNode        | 13:52:06.695 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chromeNode      | 13:52:06.688 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+container1      | [INFO] ------------------------------------------------------------------------
+container1      | [INFO] BUILD FAILURE
+container1      | [INFO] ------------------------------------------------------------------------
+container1      | [INFO] Total time:  0.311 s
+container1      | [INFO] Finished at: 2025-08-17T13:52:06Z
+container1      | [INFO] ------------------------------------------------------------------------
+container1      | [ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/app). Please verify you invoked Maven from the correct directory. -> [Help 1]
+container1      | org.apache.maven.lifecycle.MissingProjectException: The goal you specified requires a project to execute but there is no POM in this directory (/app). Please verify you invoked Maven from the correct directory.
+container1      |     at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:80)
+container1      |     at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+container1      |     at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+container1      |     at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+container1      |     at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+container1      |     at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+container1      |     at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+container1      |     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+container1      |     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+container1      |     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+container1      |     at java.lang.reflect.Method.invoke (Method.java:568)
+container1      |     at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+container1      |     at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+container1      |     at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+container1      |     at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+container1      | [ERROR] 
+container1      | [ERROR] 
+container1      | [ERROR] For more information about the errors and possible solutions, please read the following articles:
+container1      | [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+container1      | [DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+container1      | [DEBUG] Shutting down 'file-lock' factory
+container1      | [DEBUG] Shutting down 'rwlock-local' factory
+container1      | [DEBUG] Shutting down 'semaphore-local' factory
+container1      | [DEBUG] Shutting down 'noop' factory
+container1      | â�Œ Tests failed with exit code 1
+edgeNode        | 13:52:07.410 INFO [NodeServer$2.start] - Starting registration process for Node http://172.21.0.4:5555
+edgeNode        | 13:52:07.418 INFO [NodeServer.execute] - Started Selenium node 4.35.0 (revision 1c58e5028b): http://172.21.0.4:5555
+chromeNode      | 13:52:07.434 INFO [NodeServer$2.start] - Starting registration process for Node http://172.21.0.5:5555
+chromeNode      | 13:52:07.456 INFO [NodeServer.execute] - Started Selenium node 4.35.0 (revision 1c58e5028b): http://172.21.0.5:5555
+firefoxNode     | 13:52:07.481 INFO [NodeServer$2.start] - Starting registration process for Node http://172.21.0.3:5555
+chromeNode      | 13:52:07.487 INFO [NodeServer$2.lambda$start$2] - Sending registration event...
+firefoxNode     | 13:52:07.491 INFO [NodeServer.execute] - Started Selenium node 4.35.0 (revision 1c58e5028b): http://172.21.0.3:5555
+edgeNode        | 13:52:07.495 INFO [NodeServer$2.lambda$start$2] - Sending registration event...
+firefoxNode     | 13:52:07.545 INFO [NodeServer$2.lambda$start$2] - Sending registration event...
+seleniumHub     | 13:52:07.605 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chrome_video-1  | 2025-08-17 13:52:07,977 [endpoint.checks] - Endpoint http://ChromeService:5555/status is reachable - status code: 200
+seleniumHub     | 13:52:08.243 INFO [Hub.execute] - Started Selenium Hub 4.35.0 (revision 1c58e5028b): http://172.21.0.2:4444
+seleniumHub     | 13:52:08.473 INFO [LocalGridModel.setAvailability] - Switching Node ec0c32ac-d755-4328-aa46-3efd46e8a5cd (uri: http://172.21.0.5:5555) from DOWN to UP
+seleniumHub     | 13:52:08.473 INFO [LocalNodeRegistry.add] - Added node ec0c32ac-d755-4328-aa46-3efd46e8a5cd at http://172.21.0.5:5555. Health check every 120s
+seleniumHub     | 13:52:08.476 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+chromeNode      | 13:52:08.484 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+seleniumHub     | 13:52:08.576 INFO [LocalGridModel.setAvailability] - Switching Node e68ed5f1-b5f5-4949-8a28-37a7815651e0 (uri: http://172.21.0.4:5555) from DOWN to UP
+seleniumHub     | 13:52:08.576 INFO [LocalNodeRegistry.add] - Added node e68ed5f1-b5f5-4949-8a28-37a7815651e0 at http://172.21.0.4:5555. Health check every 120s
+seleniumHub     | 13:52:08.578 INFO [Node.<init>] - Binding additional locator mechanisms: relative
+edgeNode        | 13:52:08.582 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+seleniumHub     | 13:52:08.687 INFO [LocalGridModel.setAvailability] - Switching Node b40a3a1a-8662-4cdb-b520-eea039275e2b (uri: http://172.21.0.3:5555) from DOWN to UP
+seleniumHub     | 13:52:08.687 INFO [LocalNodeRegistry.add] - Added node b40a3a1a-8662-4cdb-b520-eea039275e2b at http://172.21.0.3:5555. Health check every 120s
+firefoxNode     | 13:52:08.691 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+chrome_video-1  | 2025-08-17 13:52:09,088 [video.recorder] - Node endpoint is responding now. Proceeding next steps...
+Aborted by [8mha:////4JCvRdoy+sCDbdcNzwfFiYWYnkdWKD7Jn6SOXu+kBkRyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9/OLE3EQAVkbZ1MAAAAA=[0mosama zazaza
+Sending interrupt signal to process
+Gracefully stopping... (press Ctrl+C again to force)
+ Container container1  Stopping
+[8mha:////4K/uVQ3xho6RG2HsN3QXvxWTKxKZTkKiEc3K+ahkFr66AAAA/h+LCAAAAAAAAP9djD1Ow0AQRseOoEaUiI5+NwUCKygFIkJBigARLuA4i/8mM8vsLAkNh+Aa0CBxBQ7BBeioKWgwSgVf873mvedP2AgCI5bSNI7amkJRG4+x7MgsWdob5KUJ0XsWNUGdD6YmH9VcXkyvx/feCdbUnrO6rffe69fh90cKyQR6UVBhe9Lkd7nFnEo7VampPFoJ7FZxHphMwRQYnflTORg+vQwf/VsK6RlsoqNSq3XuFh4g6fSdf/rJ+n9lWC9JAVa+A6OQ7ClklaofWItc5Fhx0EHWz/q24Zn1EfGY5leRToUXIy5aJ+M4s/tWnSx+ACoDmB8fAQAA[0mClick here to forcibly terminate running steps
+After 20s process did not stop
+[8mha:////4DJbtGR9RMJ/5kHm2d1IJdPNHPlmaiKLV0NVKR1o+Xh2AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4H0rF16h/FzO5i5jLtbEjqoEowhk2/Nlr27B8fjo6qJkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4G7vsiEvm10hMzmzcV/3BTRPo7PS646WLMVhW4c6AMYIAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4FNIMr/rOubn2pw5F9V59AC/Ag1FxzqLvBis4jXnsglEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4Mur7kZ+QSRyzggPhByxolCt72z1zJk/Mx4T6GxzfAYNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4AoU2deRBEyOeSvprQZ9sVFm3bWYSrNskIfZwYC1A+owAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGh1CMKvgAAAA==[0m[Pipeline] bat
+
+C:\Users\user\Desktop\MyDataUntil2025\Tutorials\Cources\Jenkins\jenkins_slave\workspace\pullAndRunFromDockerHub>docker-compose down 
+ Container container1  Stopping
+ Container container1  Stopped
+ Container container1  Removing
+ Container container1  Removed
+ Container edgeNode  Stopping
+ Container firefoxNode  Stopping
+ Container pullandrunfromdockerhub-chrome_video-1  Stopping
+ Container pullandrunfromdockerhub-chrome_video-1  Stopped
+ Container pullandrunfromdockerhub-chrome_video-1  Removing
+ Container pullandrunfromdockerhub-chrome_video-1  Removed
+ Container chromeNode  Stopping
+ Container edgeNode  Stopped
+ Container edgeNode  Removing
+ Container edgeNode  Removed
+ Container firefoxNode  Stopped
+ Container firefoxNode  Removing
+ Container firefoxNode  Removed
+ Container chromeNode  Stopped
+ Container chromeNode  Removing
+ Container chromeNode  Removed
+ Container seleniumHub  Stopping
+ Container seleniumHub  Stopped
+ Container seleniumHub  Removing
+ Container seleniumHub  Removed
+ Network pullandrunfromdockerhub_default  Removing
+ Network pullandrunfromdockerhub_default  Removed
+[8mha:////4Ozoa+BaFzx9XUdSaibfXf5daBD5FBsoLwJd0G48wuClAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFEU4bYvgAAAA==[0m[Pipeline] }
+[8mha:////4KAo6lOoKPH2SkzY87hAkqsrs5g6oJFGT2hCbGDCK9A5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGrSWhXvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LCZzoVXTA137Fn85lbZdzHAUClUgDwKxoZuVzj0BSF+AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Bm3Cxab0AAAA=[0m[Pipeline] }
+[8mha:////4In2/uNFnm5+o3kzFRqhtUdE6BvuIxoTdfIZ8PMiH8pSAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfkZSnI9h/on3WwvQAAAA==[0m[Pipeline] // node
+[8mha:////4N8W+YJbAhAAjxZzFWpC+Wf6vMuPa1EpFApIi1QqePTyAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkOBon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk5V6QlR/OhhL6vQAAAA==[0m[Pipeline] End of Pipeline
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: e1a933ea-28ad-451f-bcc2-27454de58338
+Finished: ABORTED

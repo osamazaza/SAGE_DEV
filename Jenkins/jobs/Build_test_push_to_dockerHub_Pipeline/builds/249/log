@@ -1,0 +1,316 @@
+Started by user [8mha:////4ClkIFnM+B1SIHgWevAKFgd1XyxrRkhQZSFvr4AHCaCnAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL94sT0VABftSfCvwAAAA==[0msage
+Obtained JenkinsPipelinesFiles/Jenkinsfile.buildAndPushToDockerHub from git https://github.com/osamazaza/sdbProjectLive
+[8mha:////4Kk3h05G8rWQDbBWQbW3zsbRcy4eQlCgtEvrb3ExS4SFAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pbxo3wjc8sxxHVYvcVrkyOJGRdasTqW3sfYdzN+wSPUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4OVSFf7Q5Olu2iUWI9fN2lV2ia3GQzswf4po4SLJSva8AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZR/eT83ILSktQi/ZT85OzUIj+ga/UBffVhUsoAAAA=[0mdockerNode in C:\Users\user\Desktop\MyDataUntil2025\Tutorials\Cources\Docker\Projects\sdbProjectLive\Jenkins\workspace\Build_test_push_to_dockerHub_Pipeline
+[8mha:////4DMG5JzRWFa/FVGXyqhQlD4vDqseXSu7iEh+pgd7yK5/AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4F5qLw9rBklxJ6v9gjVySe+b4ub631H8CPFWA/MEQbwVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4PLcx44rQAq7wjUJ1KtLvfJD8R2DBbfyXszmX4cKWU0pAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4C8LBQE1l6HaEMsTXZdMl8SAy0uf0nekcUxTkXXZwc2hAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: C:\Program Files\Git\cmd\git.exe
+using credential GIT_Credentials
+Cloning the remote Git repository
+Cloning repository https://github.com/osamazaza/sdbProjectLive
+ > C:\Program Files\Git\cmd\git.exe init C:\Users\user\Desktop\MyDataUntil2025\Tutorials\Cources\Docker\Projects\sdbProjectLive\Jenkins\workspace\Build_test_push_to_dockerHub_Pipeline # timeout=10
+Fetching upstream changes from https://github.com/osamazaza/sdbProjectLive
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.45.1.windows.1'
+using GIT_ASKPASS to set credentials 
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/osamazaza/sdbProjectLive +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision e57199b84ab6ca568bc21b570edf8b65f6247b92 (origin/myBranch)
+ERROR: Checkout failed
+hudson.plugins.git.GitException: Command "C:\Program Files\Git\cmd\git.exe checkout -f e57199b84ab6ca568bc21b570edf8b65f6247b92" returned status code 128:
+stdout: 
+stderr: error: unable to write file Jenkins/plugins/joda-time-api/WEB-INF/lib/joda-time-2.14.0.jar
+error: unable to write file Jenkins/plugins/jquery3-api/js/jquery.js
+error: unable to write file Jenkins/plugins/jquery3-api/js/jquery.min.map
+error: unable to write file Jenkins/plugins/json-api/META-INF/maven/io.jenkins.plugins/json-api/pom.xml
+error: unable to write file Jenkins/plugins/json-api/WEB-INF/lib/json-20250517.jar
+error: unable to write file Jenkins/plugins/json-api/WEB-INF/lib/json-api.jar
+error: unable to write file Jenkins/plugins/json-api/WEB-INF/licenses.xml
+error: unable to write file Jenkins/plugins/json-path-api.jpi
+error: unable to write file Jenkins/plugins/json-path-api/META-INF/MANIFEST.MF
+error: unable to write file Jenkins/plugins/json-path-api/META-INF/maven/io.jenkins.plugins/json-path-api/pom.xml
+error: unable to write file Jenkins/plugins/json-path-api/WEB-INF/lib/accessors-smart-2.5.2.jar
+error: unable to write file Jenkins/plugins/json-path-api/WEB-INF/lib/accessors-smart-2.6.0.jar
+error: unable to create file Jenkins/plugins/json-path-api/WEB-INF/lib/json-path-2.9.0.jar: No space left on device
+error: unable to create file Jenkins/plugins/json-path-api/WEB-INF/lib/json-path-api.jar: No space left on device
+error: unable to create file Jenkins/plugins/json-path-api/WEB-INF/lib/json-smart-2.5.2.jar: No space left on device
+error: unable to create file Jenkins/plugins/json-path-api/WEB-INF/lib/json-smart-2.6.0.jar: No space left on device
+error: unable to create file Jenkins/plugins/json-path-api/WEB-INF/lib/json-smart-action-2.5.2.jar: No space left on device
+error: unable to create file Jenkins/plugins/json-path-api/WEB-INF/lib/json-smart-action-2.6.0.jar: No space left on device
+error: unable to write file Jenkins/plugins/json-path-api/WEB-INF/licenses.xml
+error: unable to write file Jenkins/plugins/jsoup.jpi
+error: unable to write file Jenkins/plugins/jsoup/META-INF/MANIFEST.MF
+error: unable to write file Jenkins/plugins/jsoup/META-INF/maven/org.jenkins-ci.plugins/jsoup/pom.xml
+error: unable to write file Jenkins/plugins/jsoup/WEB-INF/lib/jsoup-1.21.1.jar
+error: unable to write file Jenkins/plugins/jsoup/WEB-INF/lib/jsoup-1.21.2.jar
+error: unable to write file Jenkins/plugins/jsoup/WEB-INF/lib/jsoup.jar
+error: unable to write file Jenkins/plugins/jsoup/WEB-INF/licenses.xml
+error: unable to write file Jenkins/plugins/junit.jpi
+error: unable to write file Jenkins/plugins/junit/META-INF/MANIFEST.MF
+error: unable to write file Jenkins/plugins/junit/META-INF/maven/org.jenkins-ci.plugins/junit/pom.xml
+error: unable to write file Jenkins/plugins/junit/WEB-INF/lib/junit.jar
+error: unable to write file Jenkins/plugins/junit/WEB-INF/lib/parallel-collectors-2.6.1.jar
+error: unable to write file Jenkins/plugins/junit/WEB-INF/licenses.xml
+error: unable to write file Jenkins/plugins/ldap.jpi
+error: unable to write file Jenkins/plugins/ldap/META-INF/MANIFEST.MF
+error: unable to write file Jenkins/plugins/ldap/META-INF/maven/org.jenkins-ci.plugins/ldap/pom.xml
+error: unable to write file Jenkins/plugins/ldap/WEB-INF/lib/ldap.jar
+error: unable to write file Jenkins/plugins/ldap/WEB-INF/lib/spring-ldap-core-3.2.7.jar
+error: unable to write file Jenkins/plugins/ldap/WEB-INF/lib/spring-security-ldap-6.3.4.jar
+error: unable to create file Jenkins/plugins/ldap/WEB-INF/lib/spring-tx-6.1.14.jar: No space left on device
+error: unable to create file Jenkins/plugins/ldap/WEB-INF/lib/time4j-base-5.9.4.jar: No space left on device
+error: unable to create file Jenkins/plugins/ldap/WEB-INF/lib/time4j-tzdata-5.0-2025a.jar: No space left on device
+error: unable to write file Jenkins/plugins/ldap/WEB-INF/licenses.xml
+error: unable to write file Jenkins/plugins/mailer.jpi
+error: unable to write file Jenkins/plugins/mailer/META-INF/MANIFEST.MF
+error: unable to write file Jenkins/plugins/mailer/META-INF/maven/org.jenkins-ci.plugins/mailer/pom.xml
+error: unable to write file Jenkins/plugins/mailer/WEB-INF/lib/mailer.jar
+error: unable to write file Jenkins/plugins/matrix-auth.jpi
+error: unable to write file Jenkins/plugins/matrix-auth/META-INF/MANIFEST.MF
+error: unable to write file Jenkins/plugins/matrix-auth/META-INF/maven/org.jenkins-ci.plugins/matrix-auth/pom.xml
+error: unable to write file Jenkins/plugins/matrix-auth/WEB-INF/lib/matrix-auth.jar
+error: unable to write file Jenkins/plugins/matrix-auth/WEB-INF/licenses.xml
+error: unable to write file Jenkins/plugins/matrix-project.jpi
+error: unable to write file Jenkins/plugins/matrix-project/META-INF/MANIFEST.MF
+error: unable to write file Jenkins/plugins/matrix-project/META-INF/maven/org.jenkins-ci.plugins/matrix-project/pom.xml
+error: unable to write file Jenkins/plugins/matrix-project/WEB-INF/lib/matrix-project.jar
+error: unable to write file Jenkins/plugins/matrix-project/help/matrix/axes.html
+error: unable to write file Jenkins/plugins/matrix-project/help/matrix/axes_de.html
+error: unable to write file Jenkins/plugins/matrix-project/help/matrix/axes_fr.html
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/axes_ja.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/axes_nl.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/axes_pt_BR.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/axes_ru.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/axes_tr.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/axes_zh_TW.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/combinationfilter.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/combinationfilter_de.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/combinationfilter_fr.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/combinationfilter_ja.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/combinationfilter_zh_TW.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/jdk.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/jdk_de.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/jdk_fr.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/jdk_ja.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/jdk_nl.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/jdk_pt_BR.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/jdk_ru.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/jdk_tr.html: No space left on device
+error: unable to create file Jenkins/plugins/matrix-project/help/matrix/jdk_zh_TW.html: No space left on device
+fatal: cannot create directory at 'Jenkins/plugins/matrix-project/images': No space left on device
+
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2844)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl$9.execute(CliGitAPIImpl.java:3174)
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to dockerNode
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1916)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:384)
+		at hudson.remoting.Channel.call(Channel.java:1108)
+		at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.execute(RemoteGitImpl.java:155)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+		at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+		at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.invoke(RemoteGitImpl.java:140)
+		at PluginClassLoader for git-client/jdk.proxy62/jdk.proxy62.$Proxy141.execute(Unknown Source)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM._checkout(GitSCM.java:1361)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1278)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:136)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:101)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:88)
+		at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:49)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+		at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at java.base/java.lang.Thread.run(Unknown Source)
+Caused: hudson.plugins.git.GitException: Could not checkout e57199b84ab6ca568bc21b570edf8b65f6247b92
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.CliGitAPIImpl$9.execute(CliGitAPIImpl.java:3202)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$GitCommandMasterToSlaveCallable.call(RemoteGitImpl.java:173)
+	at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$GitCommandMasterToSlaveCallable.call(RemoteGitImpl.java:164)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:225)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:50)
+	at hudson.remoting.Request$2.run(Request.java:391)
+	at hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:81)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:310)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused: java.io.IOException
+	at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1280)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:136)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:101)
+	at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:88)
+	at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:49)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+ERROR: Maximum checkout retry attempts reached, aborting
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/osamazaza/sdbProjectLive # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "origin/myBranch^{commit}" # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f e57199b84ab6ca568bc21b570edf8b65f6247b92 # timeout=10
+[8mha:////4LqJGbJ2XOvHLtbx4KpPQJmyRC3vBf/1TLa4j7APEDTeAAAApR+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQj0iIqWssNLzCJMU6su2BfSCpexNf4A4ZIVGy1s9Jqni8oU4QDRSc7i73H1Hg5hNHlJieK/SXQJDs6y4YwUbBS20lTa48LamILS0QBKwVri02g5NExbFRn7qYKBl114pi3vYLCtzd4gFDZzCbyF+YI2+vYJsKf568A5oFB1AzFrv4cyzf+j1f0wQAAAA==[0m[Pipeline] stage
+[8mha:////4JWkB2hM2kW126COo+gwi+FqDQYEk/HTg9Iq/1Ec6dwTAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4K8+lvlv/6Y1W6BpBcKa24idCIvx7If0XvRdlcYlb3oiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] echo
+🧹 Cleaning up containers
+[8mha:////4EWXH/DjvamRpCqCsd/k0kNQN4xuauWvyGu50xluxFdeAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] bat
+Error when executing always post condition:
+Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: e5723930-c6cb-4f5e-9e38-caf0570edac4
+org.jenkinsci.plugins.workflow.steps.MissingContextVariableException: Required context class hudson.FilePath is missing
+Perhaps you forgot to surround the bat step with a step that provides this, such as: node
+	at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.StepDescriptor.checkContextAvailability(StepDescriptor.java:264)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:299)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:195)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:124)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:41)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:180)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+	at PluginClassLoader for script-security//org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:163)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:178)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:182)
+	at PluginClassLoader for script-security//org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:152)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.LoggingInvoker.methodCall(LoggingInvoker.java:118)
+	at WorkflowScript.run(WorkflowScript:45)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.delegateAndExecute(ModelInterpreter.groovy:139)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:728)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.catchRequiredContextForNode(ModelInterpreter.groovy:390)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:727)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2125)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2110)
+	at com.cloudbees.groovy.cps.CpsDefaultGroovyMethods.each(CpsDefaultGroovyMethods:2151)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy:717)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.runPostConditions(ModelInterpreter.groovy)
+	at org.jenkinsci.plugins.pipeline.modeldefinition.ModelInterpreter.executePostBuild(ModelInterpreter.groovy:695)
+	at ___cps.transform___(Native Method)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:90)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:114)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:147)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:17)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:49)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:181)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:443)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:351)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:299)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:140)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+[8mha:////4K9xV/BqAmSl0oxfFWBVB2QJ8rr+pC0L8wGxCNuYEZH6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4KLl35tx02gKOqYQkxrDfr30t6YIgYH7SlyVOpaZkniEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4Goy8Y237gQy97dwMIgCmw+vSR5UY0DfxDe7XCgRP46qAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPccVWC70AAAA=[0m[Pipeline] End of Pipeline
+an exception which occurred:
+	in object java.lang.String@653f2b3
+	in field org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.closures
+	in object org.jenkinsci.plugins.workflow.cps.CpsThreadGroup@55dca9f6
+	in object org.jenkinsci.plugins.workflow.cps.CpsThreadGroup@55dca9f6
+Also:   java.io.IOException: Input/output error
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(Unknown Source)
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+		at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+		at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+		at java.base/sun.nio.ch.FileChannelImpl.write(Unknown Source)
+		at PluginClassLoader for workflow-support//org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter$FileChannelOutput.write(RiverWriter.java:215)
+		at PluginClassLoader for workflow-support//org.jboss.marshalling.SimpleDataOutput.flush(SimpleDataOutput.java:336)
+		at PluginClassLoader for workflow-support//org.jboss.marshalling.SimpleDataOutput.finish(SimpleDataOutput.java:378)
+		at PluginClassLoader for workflow-support//org.jboss.marshalling.AbstractMarshaller.finish(AbstractMarshaller.java:131)
+		at PluginClassLoader for workflow-support//org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.close(RiverWriter.java:179)
+		at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:609)
+Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 71ce821d-d326-40b7-866a-8cf9b32f5370
+Caused: java.io.IOException: Input/output error
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base/sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at PluginClassLoader for workflow-support//org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter$FileChannelOutput.write(RiverWriter.java:215)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.UTFUtils.writeUTFBytes(UTFUtils.java:131)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeKnownObject(RiverMarshaller.java:436)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:217)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.AbstractObjectOutput.writeObject(AbstractObjectOutput.java:58)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.AbstractMarshaller.writeObject(AbstractMarshaller.java:116)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeNewSerializableClass(RiverMarshaller.java:1574)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeNewSerialSuperClass(RiverMarshaller.java:1475)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeSerialSuperClass(RiverMarshaller.java:1313)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeNewSerializableClass(RiverMarshaller.java:1591)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeNewSerialSuperClass(RiverMarshaller.java:1475)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeSerialSuperClass(RiverMarshaller.java:1313)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeNewSerializableClass(RiverMarshaller.java:1591)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.writeSerializableClass(RiverMarshaller.java:1542)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:266)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.BlockMarshaller.doWriteObject(BlockMarshaller.java:65)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.BlockMarshaller.writeObject(BlockMarshaller.java:56)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.MarshallerObjectOutputStream.writeObjectOverride(MarshallerObjectOutputStream.java:50)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverObjectOutputStream.writeObjectOverride(RiverObjectOutputStream.java:179)
+	at java.base/java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at java.base/java.util.HashMap.internalWriteEntries(Unknown Source)
+	at java.base/java.util.HashMap.writeObject(Unknown Source)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.reflect.SerMethods.callWriteObject(SerMethods.java:69)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.reflect.SerializableClass.callWriteObject(SerializableClass.java:231)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1128)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:271)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteFields(RiverMarshaller.java:1182)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteSerializableObject(RiverMarshaller.java:1140)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.river.RiverMarshaller.doWriteObject(RiverMarshaller.java:271)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.AbstractObjectOutput.writeObject(AbstractObjectOutput.java:58)
+	at PluginClassLoader for workflow-support//org.jboss.marshalling.AbstractMarshaller.writeObject(AbstractMarshaller.java:116)
+	at PluginClassLoader for workflow-support//org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.lambda$writeObject$1(RiverWriter.java:147)
+	at PluginClassLoader for script-security//org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox.runInSandbox(GroovySandbox.java:329)
+	at PluginClassLoader for workflow-support//org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverWriter.writeObject(RiverWriter.java:146)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:610)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgram(CpsThreadGroup.java:587)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.saveProgramIfPossible(CpsThreadGroup.java:570)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:494)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:351)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:299)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:140)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Finished: FAILURE

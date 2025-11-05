@@ -31,7 +31,29 @@ return data;
 
 }
 
-@Test(priority = 1, dataProvider = "formDataProvider")
+
+
+    @Test(priority = 1 )
+    public void NavigateToGoogleTest(){
+
+try{
+SmartUIValidator.navigateToUrl("https://www.google.com/", FailureHandler.FailureHandling.STOP_ON_FAILURE);
+
+
+        }
+
+        finally {
+            SmartUIValidator.assertAll();
+
+        }
+
+
+    }
+
+
+
+/*
+    @Test(priority = 2, dataProvider = "formDataProvider")
 public void ValidateDate(String username, String password, String email, String gender){
 
 
@@ -85,29 +107,6 @@ public void ValidateDate(String username, String password, String email, String 
 
 
 
-
-
-
-     /*       SmartUIValidator.navigateToUrl("C:\\Users\\user\\Desktop\\Test\\test.html", FailureHandler.FailureHandling.STOP_ON_FAILURE);
-            By locator1 = By.xpath("//div[@class='item' and text()='View 50']");
-
-            By scrollView = By.xpath("//*[contains(@class, 'scroll-wrapper')]");
-
-            SmartUIValidator.swipePageUntilElementIsVisible(locator1,  "down",FailureHandler.FailureHandling.STOP_ON_FAILURE, "element", 1, 1500, null,30);
-
-           SmartUIValidator.click(locator1, FailureHandler.FailureHandling.STOP_ON_FAILURE, "view", 5);
-
-
-*//*
-            String API_URL = "https://jsonplaceholder.typicode.com/todos/1";
-Map<String, String> map =  SmartUIValidator.getAPIRequestAndResponse(API_URL, FailureHandler.FailureHandling.STOP_ON_FAILURE, 22);
-
-            for (Map.Entry<String, String> entry : map.entrySet()) {
-                System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
-            }*//*
-*/
-
-
         }
 
         finally {
@@ -120,6 +119,7 @@ Map<String, String> map =  SmartUIValidator.getAPIRequestAndResponse(API_URL, Fa
 
 
 
+*/
 
 
 

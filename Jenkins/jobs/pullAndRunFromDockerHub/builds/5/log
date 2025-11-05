@@ -1,0 +1,3 @@
+Started by user [8mha:////4JCvRdoy+sCDbdcNzwfFiYWYnkdWKD7Jn6SOXu+kBkRyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZu/dLi1CL9/OLE3EQAVkbZ1MAAAAA=[0mosama zazaza
+ERROR: Unable to find JenkinsPipelinesFiles\Jenkinsfile.pullAndRunFromDockerHub from git https://github.com/osamazaza/sdbProject.git
+Finished: FAILURE
